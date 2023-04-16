@@ -295,8 +295,8 @@ Tab3:AddButton({
 	print(pos)
 end
 })
-if game.PlaceId == 2414851778 then
-DungeonQuest()
-else
-print("This is not DQ")
-end
+--if game.PlaceId == 2414851778 then
+--DungeonQuest()
+--else
+--print("This is not DQ")
+--end
