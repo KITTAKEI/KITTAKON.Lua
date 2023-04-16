@@ -7,7 +7,7 @@ _G.KeyInput = "string"
 function ActivateHub()
 	OrionLib:Destroy()
 	wait(1)
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/KITTAKEI/KITTIKON/main/KITTIKON.Lua')))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/KITTAKEI/KITTAKON.Lua/main/KITTAKON.Lua')))()
 end
 
 local Tab = Window:MakeTab({
