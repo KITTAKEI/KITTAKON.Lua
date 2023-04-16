@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "KITTAKON", HidePremium = false, IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "KITTAKON", HidePremium = false, IntroEnabled = true, IntroText = KITTAKON})
 local hm = game.Players.LocalPlayer.Character.Humanoid
 local Tab = Window:MakeTab({
 	Name = "Credit",
