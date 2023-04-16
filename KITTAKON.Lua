@@ -186,7 +186,7 @@ Tab2:AddSlider({
 	Default = 50,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
-	ValueName = "Speed",
+	ValueName = "JumpPower",
 	Callback = function(Value)
 	hm.JumpPower = Value
 	end    
@@ -198,7 +198,7 @@ Tab2:AddSlider({
 	Default = 2,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
-	ValueName = "Speed",
+	ValueName = "Hip",
 	Callback = function(Value)
 	hm.HipHeight = Value
 	end    
