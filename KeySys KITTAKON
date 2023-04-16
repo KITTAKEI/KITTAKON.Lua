@@ -1,0 +1,36 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Key System On KITTAKON", HidePremium = false, IntroEnabled = false})
+
+_G.Key = "TEST"
+_G.KeyInput = "string"
+
+function ActivateHub()
+	OrionLib:Destroy()
+	wait(1)
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/KITTAKEI/KITTIKON/main/KITTIKON.Lua')))()
+end
+
+local Tab = Window:MakeTab({
+	Name = "Key",
+	Icon = "rbxassetid://13139852813",
+	PremiumOnly = false
+})
+Tab:AddTextbox({
+	Name = "Enter Key",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+        _G.KeyInput = Value
+    end	  
+})
+Tab:AddButton({
+	Name = "Check Key",
+	Callback = function()
+      	if _G.KeyInput == _G.Key then
+        ActivateHub()
+		CorrectNotification()
+		else
+			IncorrectNotification()
+  	end
+end
+})
