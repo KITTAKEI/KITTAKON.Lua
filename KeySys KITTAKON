@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Key System On KITTAKON", HidePremium = false, IntroEnabled = false})
 
-_G.Key = "TEST"
+_G.Key = "4htt39yvhsdjlmv23gdfs"
 _G.KeyInput = "string"
 
 function ActivateHub()
